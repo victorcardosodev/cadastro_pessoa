@@ -19,8 +19,11 @@ Aplicativo simples de terminal para cadastro e listagem de pessoas, desenvolvido
 ## 📂 Estrutura do projeto
 
 cadastro_pessoa/
-│
-├── main.py            # Arquivo principal do programa
-├── funcoes.py         # Módulo com as funções do sistema
-├── cadastros.txt      # Arquivo de dados (gerado automaticamente)
-└── README.md
+
+-- main.py            # Arquivo principal do programa
+
+-- funcoes.py         # Módulo com as funções do sistema
+
+-- cadastros.txt      # Arquivo de dados (gerado automaticamente)
+
+-- README.md
