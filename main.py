@@ -1,9 +1,11 @@
 import funcoes
 
+#funcoes.infoBD()
+
 print('Bem vindo(a) ao aplicativo de cadastro !!')
 
 while True:
-    escolha = funcoes.validandoEscolha(input('''
+    escolha = funcoes.validandoTipo(input('''
 1 - Cadastrar pessoa
 2 - Ver pessoas cadastradas
 3 - fechar programa
@@ -21,7 +23,7 @@ Escolha: '''))
 
         case 2:
             funcoes.pessoasCadastradas()
-            
+
         case 3:
             print('Muito obrigado por usar nosso programa, volte sempre !!')
     if escolha == 3:
